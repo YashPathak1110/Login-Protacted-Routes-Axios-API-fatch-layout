@@ -5,7 +5,7 @@ function Home() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
+// demo
   useEffect(() => {
     // yash
     const fetchData = async () => {
